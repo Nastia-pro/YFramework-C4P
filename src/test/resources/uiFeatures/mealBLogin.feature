@@ -6,10 +6,10 @@ Background:
   @MB-001 @Smoke
   Scenario: User can login successfully
       When I click on the Sign In button
-      Then I enter MealB username as "elnar"
-      And I enter MealB password as "mart12345"
+      Then I enter MealB username as "anastasia"
+      And I enter MealB password as "2016theUSA20"
       Then I click on the Login button
-      Then I am successfully logged in as "Elnar Mirza"
+      Then I am successfully logged in as "Anastasia"
 
   @MB-002 @Smoke
   Scenario: User should not login with incorrect info
